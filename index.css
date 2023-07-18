@@ -4,6 +4,7 @@
 }
 nav{
   background-color: #FFFFFF;
+  margin-bottom: 70px;
 }
 .nav-container{
     
@@ -51,6 +52,7 @@ font-weight: 700;
   align-items: center;
   padding-bottom: 13px;
   padding-top: 10px;
+  
  
   
 }
@@ -58,4 +60,27 @@ font-weight: 700;
   width: 25px;
   padding-left: 6px;
   
+}
+.banner-container{
+  border: 1px solid red;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.banner-text{
+  border: 1px solid green;
+  width: 50%;
+}
+.banner-title{
+
+}
+.banner-detail{
+
+}
+.icon{
+  
+}
+.banner-img{
+border: 1px solid blue;
+width: 50%;
 }
