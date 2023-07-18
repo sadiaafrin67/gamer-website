@@ -1,16 +1,26 @@
-
-
-@media screen and (max-width:576px) {
-.nav-container {
-    flex-direction: column;
+/* for tablet */
+@media screen and (max-width:768px)  {
+  .nav-item{
+    gap: 50px;
+    overflow: hidden;
+  }
         
 }
-.nav-item{
-    flex-direction: column;
-   margin-top: ;
-}
 
+/* for mobile */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        overflow: hidden;
+            
+    }
+    .nav-item{
+        flex-direction: column;
+       margin-top:16px ;
+       gap: 12px;
+       overflow: hidden;
+      
+    }
     
-  
-}
+    }
 
