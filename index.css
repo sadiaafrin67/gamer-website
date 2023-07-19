@@ -316,3 +316,62 @@ border-radius: 50px;
   color: #F948B2;
   cursor: pointer;
 }
+.foot{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 350px;
+  margin-top: 80px;
+  padding-top: 40px;
+ 
+}
+.foot-logo{
+  width: 50px;
+
+  
+}
+.foot-icon-title{
+  text-align: center;
+ margin-bottom: 50px;
+}
+.foot-title{
+  color: #FFF;
+list-style-type: none;
+display: grid;
+grid-template-columns: repeat(6, 100px);
+justify-content: center;
+row-gap: 20px;
+margin-left: 60px;
+font-size: 12px;
+
+font-weight: 400;
+
+}
+.foot-logo-title{
+  padding-bottom: 30px;
+}
+.foot-img{
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 20px;
+}
+.foot-detail{
+  color: rgba(255, 255, 255, 0.60);
+padding-top: 30px;
+display: grid;
+grid-template-columns: repeat(4,100px);
+list-style-type: none;
+font-size: 7px;
+justify-content: center;
+font-weight: 500;
+
+}
+.foot-end{
+  color: rgba(255, 255, 255, 0.60);
+  padding-top: 30px;
+  font-size: 7px;
+  justify-content: center;
+  font-weight: 500;
+}
