@@ -82,7 +82,15 @@
       
     }
     .foot-img{
+      overflow: hidden;
       margin-left: 30px;
+    }
+    .foot{
+      overflow: hidden;
+    }
+    .foot-detail{
+      font-size: 5px;
+      overflow: hidden;
     }
    
 }
