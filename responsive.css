@@ -18,8 +18,8 @@
     margin-top: 0px;
     background-image: none;
     margin-left: 38px;
-    width: auto;
-    overflow: hidden;
+   
+   
   
   }
   .banner-detail {
@@ -28,7 +28,7 @@
   .banner-img-container{
    width: auto;
     margin-top: 25px;
-  overflow: hidden;
+ 
   }
   .banner-title{
     font-size: 35px;
