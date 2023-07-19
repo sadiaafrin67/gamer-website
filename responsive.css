@@ -42,13 +42,36 @@
     grid-template-columns: 1fr;
     width: 70%;
   }
+  .play-section-container{
+   flex-direction:   column;
+   margin-left: 100px;
+    
+    }
+    .play-detail {
+      text-align: center;
+   align-items: center;
+   font-size: 20px;
+    }
+    .play-msg{
+      font-size: 10px;
+      text-align: center;
+      align-items: center;
+      
+    }
+    .play-img{
+      width: 80%;
+      overflow: hidden; 
+     
+    }
+    .play-text{
+    margin-top: 0;
+      
+    }
    
-   
-  
- 
+}
 
   
-}
+  
   /* for tablet */
 @media screen and (min-width:576px) and (max-width:960px)  {
   .nav-item{
@@ -59,6 +82,11 @@
 
    margin-right: 60px;
   }
+  .play-section-container{
+    flex-direction:  column;
+    margin-left: 100px;
+  }
+ 
         
 }
 
