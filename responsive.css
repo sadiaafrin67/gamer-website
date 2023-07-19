@@ -67,6 +67,13 @@
     margin-top: 0;
       
     }
+    .btn-section{
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      max-width: 90%;
+      overflow: hidden;
+      margin-top: 25px;
+    }
    
 }
 
@@ -86,7 +93,10 @@
     flex-direction:  column;
     margin-left: 100px;
   }
- 
+ .play-text{
+  align-items: center;
+  text-align: center;
+ }
         
 }
 
