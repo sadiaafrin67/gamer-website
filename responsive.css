@@ -3,6 +3,7 @@
   .nav-container {
       flex-direction: column;
       overflow: hidden;
+      margin-top: 40px;
           
   }
   .nav-item{
@@ -11,6 +12,33 @@
      gap: 12px;
      overflow: hidden;
     
+  }
+  .banner-container{
+    flex-direction: column;
+    margin-top: 0px;
+    background-image: none;
+    margin-left: 38px;
+    width: auto;
+    overflow: hidden;
+  
+  }
+  .banner-detail {
+    font-size: 45px;
+  }
+  .banner-img-container{
+   width: auto;
+    margin-top: 25px;
+  overflow: hidden;
+  }
+  .banner-title{
+    font-size: 35px;
+   
+  }
+  .banner-text{
+    width: auto;
+  }
+  .icon{
+    font-size: 15px;
   }
 }
   /* for tablet */
