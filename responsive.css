@@ -73,10 +73,12 @@
       max-width: 90%;
       overflow: hidden;
       margin-top: 25px;
+      overflow: hidden;
     }
     
     .foot-title{
       grid-template-columns: repeat(3, 100px);
+      overflow: hidden;
       
     }
     .foot-img{
